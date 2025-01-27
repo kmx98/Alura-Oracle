@@ -10,3 +10,5 @@
 - Clonar un proyecto: ```` git clone (URL que ocupes https, ssh, etc)````.
 ![Texto alternativo](/Principiante%20en%20Programación%20G8%20-%20ONE/img/git.PNG)
 - ```` git log ````: Muestra información detallada sobre cada commit, como el hash, el autor, la fecha y el mensaje asociado al commit (con la tecla Q puedes salir del comando) tiene variantes como usar este mismo comando con ```` --oneline ````.
+
+- Una modificacion extra 
