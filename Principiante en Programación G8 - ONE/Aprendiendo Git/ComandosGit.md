@@ -153,3 +153,23 @@
     **Resumen:**  
     ````git merge```` es ideal para unir ramas en Git cuando deseas mantener el historial de cambios de ambas ramas. Es muy útil en flujos de trabajo colaborativos donde se integran nuevas características o correcciones de errores.
 
+- ````git restore --source```` El parámetro ````--source```` en ````git restore```` te permite restaurar un archivo o directorio desde un commit específico, una rama o una etiqueta, en lugar de solo revertirlo al último commit confirmado en la rama actual.
+
+    **Sintaxis general:**  
+    ````git restore --source <origen> <archivo>````  
+
+    Donde:  
+    - ````<origen>```` puede ser un commit, una rama, una etiqueta o un hash específico.
+    - ````<archivo>```` es el archivo que quieres restaurar.
+
+    **Ejemplos de uso:**
+    1. **Restaurar un archivo desde un commit anterior específico:** ````git restore --source abc123 archivo.txt````
+        - Restaura ````archivo.txt```` desde el commit con hash ````abc123````, sin afectar otros archivos.
+    2. **Restaurar un archivo desde otra rama:** ````git restore --source develop archivo.txt````
+        - Trae la versión más reciente de ````archivo.txt```` desde la rama ````develop````.
+    3. **Restaurar todo el proyecto desde otro commit (sin cambiar de rama):** ````git restore --source 1a2b3c4d .````
+        - Restaura todos los archivos al estado en el commit ````1a2b3c4d````, pero sin cambiar la referencia de la rama actual.
+    4. **Restaurar un archivo y prepararlo para commit directamente (--staged):** ````git restore --source main --staged archivo.txt````
+        - Recupera ````archivo.txt```` desde la rama ````main```` y lo deja en el área de preparación (````git add```` automático).
+
+<h1>Hola desde la rama desarrollo</h1>
