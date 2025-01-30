@@ -153,3 +153,4 @@
     **Resumen:**  
     ````git merge```` es ideal para unir ramas en Git cuando deseas mantener el historial de cambios de ambas ramas. Es muy útil en flujos de trabajo colaborativos donde se integran nuevas características o correcciones de errores.
 
+<h1>Investiga mas sobre git init y git remote</h1>
