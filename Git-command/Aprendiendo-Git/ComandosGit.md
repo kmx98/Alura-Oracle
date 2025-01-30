@@ -8,7 +8,7 @@
     - ```` git config --global user.email nuevoemail@example.com ````
 - Mirar el historial de comandos en consola: ```` history ````
 - Clonar un proyecto: ```` git clone (URL que ocupes https, ssh, etc)````.
-![Texto alternativo](/Alura-Oracle/Git%20command/img/git.PNG)
+![Texto alternativo](/Alura-Oracle/Git-command/img/git.PNG)
 - ```` git log ````: Muestra información detallada sobre cada commit, como el hash, el autor, la fecha y el mensaje asociado al commit (con la tecla Q puedes salir del comando) tiene variantes como usar este mismo comando con ```` --oneline ````.
 - El comando ```` git status ```` en Git se utiliza para mostrar el estado del repositorio de trabajo y del área de preparación (staging area). Es útil para ver qué cambios has realizado, qué archivos están listos para ser confirmados (committed), y cuáles no lo están.
     - **Archivos sin seguimiento (Untracked files):** Archivos que has creado pero que aún no están bajo el control de versiones de Git.
@@ -156,18 +156,18 @@
 <h2>Resumen del curso:</h2>
 
 **Configuraciones:**  
-![Texto alternativo](/Alura-Oracle/Git%20command/img/Configuraciones.PNG)  
+![Texto alternativo](/Alura-Oracle/Git-command/img/Configuraciones.PNG)  
 **Crear:**  
-![Texto alternativo](/Alura-Oracle/Git%20command/img/Crear.PNG)  
+![Texto alternativo](/Alura-Oracle/Git-command/img/Crear.PNG)  
 **Verificaciones:**  
-![Texto alternativo](/Alura-Oracle/Git%20command/img/Verificaciones.PNG)  
+![Texto alternativo](/Alura-Oracle/Git-command/img/Verificaciones.PNG)  
 **Agregar:**  
-![Texto alternativo](/Alura-Oracle/Git%20command/img/Agregar.PNG)  
+![Texto alternativo](/Alura-Oracle/Git-command/img/Agregar.PNG)  
 **Mover:**  
-![Texto alternativo](/Alura-Oracle/Git%20command/img/Mover.PNG)  
+![Texto alternativo](/Alura-Oracle/Git-command/img/Mover.PNG)  
 **Actualizar:**  
-![Texto alternativo](/Alura-Oracle/Git%20command/img/Actualizar.PNG)  
+![Texto alternativo](/Alura-Oracle/Git-command/img/Actualizar.PNG)  
 **Cambiar:**  
-![Texto alternativo](/Alura-Oracle/Git%20command/img/Cambiar.PNG)  
+![Texto alternativo](/Alura-Oracle/Git-command/img/Cambiar.PNG)  
 
 <h1>Investiga mas sobre git init y git remote</h1>
