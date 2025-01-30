@@ -172,4 +172,18 @@
     4. **Restaurar un archivo y prepararlo para commit directamente (--staged):** ````git restore --source main --staged archivo.txt````
         - Recupera ````archivo.txt```` desde la rama ````main```` y lo deja en el área de preparación (````git add```` automático).
 
-<h1>Hola desde la rama desarrollo</h1>
+- El comando ````git branch```` se usa para listar, crear o eliminar ramas en Git.
+
+    **Ejemplos de uso:**
+    - Listar todas las ramas locales: ````git branch```` (La rama actual estará marcada con un ````*````.)
+    - Crear una nueva rama sin cambiar a ella: ````git branch nueva-rama```` (Esto crea la rama nueva-rama, pero no te cambia a ella.)
+    - Eliminar una rama (si no tiene cambios sin fusionar): ````git branch -d nombre-rama```` (Usa -D si quieres forzar la eliminación de una rama con cambios no fusionados.)
+
+- El comando ````git switch```` es una alternativa moderna a ````git checkout```` para cambiar de rama.
+
+    **Ejemplos de uso:**
+    - Cambiar a otra rama existente: ````git switch nombre-rama````
+    - Crear y cambiar a una nueva rama (igual que ````checkout -b````): ````git switch -c nueva-rama````
+    - Regresar a la rama anterior rápidamente: ````git switch -````
+
+<h1>Hola hola</h1>
