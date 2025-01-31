@@ -153,6 +153,20 @@
     **Resumen:**  
     ````git merge```` es ideal para unir ramas en Git cuando deseas mantener el historial de cambios de ambas ramas. Es muy útil en flujos de trabajo colaborativos donde se integran nuevas características o correcciones de errores.
 
+- El comando ````git branch```` se usa para listar, crear o eliminar ramas en Git.
+
+    **Ejemplo práctico:**  
+    - Listar todas las ramas locales: ````git branch```` (La rama actual estará marcada con un```` *````)
+    - Crear una nueva rama sin cambiar a ella: ````git branch nueva-rama```` (Esto crea la ````rama nueva-rama````, pero no te cambia a ella.)
+    - Eliminar una rama (si no tiene cambios sin fusionar): ````git branch -d nombre-rama```` (Usa ````-D```` si quieres forzar la eliminación de una rama con cambios no fusionados.)
+
+- El comando ````git switch```` es una alternativa moderna a ````git checkout```` para cambiar de rama.
+
+    **Ejemplo práctico:**
+    - Cambiar a otra rama existente: ````git switch nombre-rama````
+    - Crear y cambiar a una nueva rama (igual que ````checkout -b````): ````git switch -c nueva-rama````
+    - Regresar a la rama anterior rápidamente: ````git switch -````
+
 <h2>Resumen del curso:</h2>
 
 **Configuraciones:**  
