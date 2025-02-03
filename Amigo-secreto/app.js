@@ -1,4 +1,4 @@
-let listaNombres = [];
+let listaNombres = []; //
 
 document.getElementById("amigo").addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
